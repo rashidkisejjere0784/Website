@@ -83,16 +83,27 @@
 
 	<hr>
 	<font color="lime" size="5">FEEL FREE TO LEAVE A COMMENT</font>
-	<form action="mailto:rashidkisejjere0784@gmail.com" method="post" enctype="text/plain">
-		Name:<br>
-		<input type="text" placeholder="name" name="name" size="50"><br><br>
-		E-mail:<br>
-		<input type="text" placeholder="name@domain.com" name="mail" size="50"><br><br>
-		Comment:<br>
-		<textarea placeholder="Your comment" name="comment" cols="50" rows="20"></textarea><br><br>
-		<input type="submit" value="Send">
-		<input type="reset" value="Reset">
-		</form>
+	<form action="mailto:rashidkisejjere0784@gmail.com" method="get" enctype="text/plain">
+      <div>
+        <label for="name">Name:
+          <input type="text" name="name" id="name" />
+        </label>
+      </div>
+      <div>
+        <label for="email">Email:
+          <input type="text" name="email" id="email" />
+        </label>
+      </div>
+      <div>
+        <label>Comments:</label>
+        <br />
+        <textarea name="comments" rows="20" cols="50">Send your comments to us.</textarea>
+      </div>
+      <div>
+        <input type="submit" name="submit" value="Send" />
+        <input type="reset" name="reset" value="Clear Form" />
+      </div>
+    </form>
 	<hr>
 	<div align="center">
 	<font color="blue" size="5">FIND ME ON</font>
